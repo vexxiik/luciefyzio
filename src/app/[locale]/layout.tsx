@@ -7,6 +7,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { DisableLinks } from "@/components/layout/DisableLinks";
 
 const fontSans = Plus_Jakarta_Sans({
   variable: "--font-sans",
@@ -45,6 +46,7 @@ export default async function RootLayout({
         className={`${fontSans.variable} ${fontHeading.variable} font-sans min-h-screen flex flex-col antialiased bg-background text-foreground`}
       >
         <NextIntlClientProvider messages={messages}>
+          <DisableLinks />
           <Navbar />
           <main className="flex-1 pt-20">
             {children}
