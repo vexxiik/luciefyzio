@@ -1,0 +1,115 @@
+{
+  "Navigation": {
+    "about": "O mně",
+    "services": "Služby a Ceník",
+    "move_concept": "Koncept M.O.V.E.",
+    "contact": "Kontakt"
+  },
+  "Common": {
+    "book_now": "OBJEDNAT SE",
+    "learn_more": "Zjistit více"
+  },
+  "Hero": {
+    "headline": "Vaše cesta k životu bez bolesti začíná zde",
+    "subheadline": "Profesionální fyzioterapie s individuálním přístupem. Pomohu vám znovu objevit radost z pohybu a žít naplno.",
+    "trust_line": "Více než 500+ spokojených klientů"
+  },
+  "Services": {
+    "title": "S čím vám pomohu",
+    "subtitle": "Nabízím komplexní péči šitou na míru vašim potřebám. Každé ošetření je individuální a zaměřené na kořen problému.",
+    "back_pain_title": "Bolesti zad a páteře",
+    "back_pain_desc": "Komplexní diagnostika a terapie bolestí zad, šíje a celé páteře s dlouhodobým efektem.",
+    "post_op_title": "Pooperační rehabilitace",
+    "post_op_desc": "Šetrná a efektivní rehabilitace po operacích kloubů, páteře a dalších ortopedických zákrocích.",
+    "sport_title": "Sportovní fyzioterapie",
+    "sport_desc": "Prevence a léčba sportovních zranění, návrat ke sportovní aktivitě a optimalizace výkonu.",
+    "headache_title": "Bolesti hlavy a migrény",
+    "headache_desc": "Manuální terapie zaměřená na uvolnění napětí a odstranění příčin chronických bolestí hlavy.",
+    "pregnancy_title": "Těhotenství a porod",
+    "pregnancy_desc": "Péče o těhotné ženy, příprava na porod a poporodní rehabilitace pánevního dna.",
+    "posture_title": "Korekce držení těla",
+    "posture_desc": "Analýza a náprava vadného držení těla, prevence problémů způsobených sedavým stylem života."
+  },
+  "About": {
+    "title": "O mně",
+    "subtitle": "Pohyb je lék, který máme všichni k dispozici.",
+    "story_title": "Moje cesta k fyzioterapii",
+    "story_p1": "Už od dětství mě fascinovalo lidské tělo a jeho schopnost regenerace. Po vlastním zranění ve sportu jsem zjistila, jak zásadní je správná péče a přístup k pohybu.",
+    "story_p2": "Věřím v komplexní přístup. Neřeším pouze symptomy, ale hledám skutečnou příčinu problému. Společně najdeme cestu, jak vaše tělo vrátit do rovnováhy.",
+    "education_title": "Vzdělání a kurzy",
+    "edu_1": "Magisterské studium Fyzioterapie",
+    "edu_2": "Dynamická neuromuskulární stabilizace (DNS)",
+    "edu_3": "Metoda Ludmily Mojžíšové",
+    "edu_4": "Myofasciální uvolňování"
+  },
+  "Move": {
+    "title": "Koncept M.O.V.E.",
+    "subtitle": "Unikátní propojení fyzioterapie, pohybu a mentálního koučinku pro trvalé výsledky.",
+    "m_title": "M — Motivace",
+    "m_desc": "Vše začíná v hlavě. Společně najdeme vaše vnitřní 'proč', které vás požene vpřed, i když to bude náročné. Vaše motivace je palivem pro úspěšnou terapii.",
+    "o_title": "O — Odvaha",
+    "o_desc": "Odvaha překonat bolest a strach z pohybu. Pomohu vám získat zpět důvěru ve vlastní tělo a opustit pohybové stereotypy, které vám neslouží.",
+    "v_title": "V — Vytrvalost",
+    "v_desc": "Změna nepřijde přes noc. Vytrvalost a konzistence jsou klíčem k trvalé úlevě a zdraví. Budu vás podporovat na každém kroku vaší cesty.",
+    "e_title": "E — Energie",
+    "e_desc": "Výsledkem našeho úsilí je návrat životní energie. Tělo bez bolesti znamená svobodu žít naplno a radovat se z každodenních aktivit."
+  },
+  "Contact": {
+    "title": "Kontakt a rezervace",
+    "subtitle": "Jste připraveni začít? Ozvěte se mi a společně najdeme termín.",
+    "address_title": "Adresa ordinace",
+    "address": "Masarykovo náměstí 1, Praha 1",
+    "email_title": "E-mail",
+    "email": "rezervace@luciefyzio.cz",
+    "phone_title": "Telefon",
+    "phone": "+420 123 456 789",
+    "form_title": "Napište mi zprávu",
+    "form_name": "Jméno a příjmení",
+    "form_email": "Váš e-mail",
+    "form_message": "Zpráva nebo dotaz",
+    "form_submit": "Odeslat zprávu"
+  },
+  "Footer": {
+    "description": "Vaše tělo, váš pohyb, vaše zdraví.",
+    "links": "Rychlé odkazy",
+    "contact": "Kontakt",
+    "rights": "Všechna práva vyhrazena."
+  },
+  "Booking": {
+    "title": "Rezervace termínu",
+    "subtitle": "Vyberte si službu, datum a čas, který vám vyhovuje.",
+    "step1": "Vyberte službu",
+    "step2": "Vyberte datum",
+    "step3": "Vyberte čas",
+    "step4": "Vaše údaje",
+    "name_label": "Jméno a příjmení",
+    "email_label": "Váš e-mail",
+    "phone_label": "Telefon",
+    "notes_label": "Poznámka (volitelné)",
+    "confirm": "Potvrdit rezervaci",
+    "success_title": "Rezervace odeslána!",
+    "success_message": "Brzy vám přijde potvrzení na e-mail. Těším se na vás!",
+    "back_home": "Zpět na hlavní stránku",
+    "no_slots": "V tento den nejsou volné termíny.",
+    "duration": "min",
+    "price_unit": "Kč"
+  },
+  "Admin": {
+    "title": "Administrace",
+    "bookings_title": "Přehled rezervací",
+    "status_pending": "Čeká na potvrzení",
+    "status_confirmed": "Potvrzeno",
+    "status_cancelled": "Zrušeno",
+    "status_completed": "Dokončeno",
+    "no_bookings": "Zatím žádné rezervace.",
+    "filter_all": "Všechny",
+    "service": "Služba",
+    "client": "Klient",
+    "date": "Datum",
+    "status": "Stav",
+    "actions": "Akce",
+    "confirm_btn": "Potvrdit",
+    "cancel_btn": "Zrušit",
+    "complete_btn": "Dokončit"
+  }
+}

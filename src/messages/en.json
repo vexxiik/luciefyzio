@@ -1,0 +1,115 @@
+{
+  "Navigation": {
+    "about": "About Me",
+    "services": "Services & Pricing",
+    "move_concept": "M.O.V.E. Concept",
+    "contact": "Contact"
+  },
+  "Common": {
+    "book_now": "BOOK NOW",
+    "learn_more": "Learn more"
+  },
+  "Hero": {
+    "headline": "Your journey to a pain-free life starts here",
+    "subheadline": "Professional physiotherapy with an individual approach. I will help you rediscover the joy of movement and live fully.",
+    "trust_line": "More than 500+ satisfied clients"
+  },
+  "Services": {
+    "title": "How I Can Help",
+    "subtitle": "I offer comprehensive care tailored to your needs. Every treatment is individual and focused on the root cause.",
+    "back_pain_title": "Back & Spine Pain",
+    "back_pain_desc": "Comprehensive diagnosis and therapy for back, neck and spine pain with long-lasting results.",
+    "post_op_title": "Post-Surgery Rehabilitation",
+    "post_op_desc": "Gentle and effective rehabilitation after joint, spine and other orthopedic surgeries.",
+    "sport_title": "Sports Physiotherapy",
+    "sport_desc": "Prevention and treatment of sports injuries, return to activity and performance optimization.",
+    "headache_title": "Headaches & Migraines",
+    "headache_desc": "Manual therapy focused on releasing tension and eliminating the causes of chronic headaches.",
+    "pregnancy_title": "Pregnancy & Postpartum",
+    "pregnancy_desc": "Care for pregnant women, birth preparation and postpartum pelvic floor rehabilitation.",
+    "posture_title": "Posture Correction",
+    "posture_desc": "Analysis and correction of poor posture, prevention of problems caused by sedentary lifestyles."
+  },
+  "About": {
+    "title": "About Me",
+    "subtitle": "Movement is a medicine we all have available.",
+    "story_title": "My Path to Physiotherapy",
+    "story_p1": "Since childhood, I have been fascinated by the human body and its ability to regenerate. After my own sports injury, I realized how essential proper care and approach to movement are.",
+    "story_p2": "I believe in a holistic approach. I don't just address the symptoms; I look for the real cause of the problem. Together, we will find a way to bring your body back into balance.",
+    "education_title": "Education and Courses",
+    "edu_1": "Master's Degree in Physiotherapy",
+    "edu_2": "Dynamic Neuromuscular Stabilization (DNS)",
+    "edu_3": "Ludmila Mojžíšová Method",
+    "edu_4": "Myofascial Release"
+  },
+  "Move": {
+    "title": "The M.O.V.E. Concept",
+    "subtitle": "A unique combination of physiotherapy, movement, and mental coaching for lasting results.",
+    "m_title": "M — Motivation",
+    "m_desc": "Everything starts in the mind. Together we will find your inner 'why' that will drive you forward, even when it gets tough. Your motivation is the fuel for successful therapy.",
+    "o_title": "O — Odvaha (Courage)",
+    "o_desc": "The courage to overcome pain and the fear of movement. I will help you regain trust in your own body and abandon movement stereotypes that no longer serve you.",
+    "v_title": "V — Vytrvalost (Perseverance)",
+    "v_desc": "Change doesn't happen overnight. Perseverance and consistency are the keys to lasting relief and health. I will support you every step of the way.",
+    "e_title": "E — Energie (Energy)",
+    "e_desc": "The result of our effort is the return of life energy. A pain-free body means the freedom to live fully and enjoy everyday activities."
+  },
+  "Contact": {
+    "title": "Contact & Booking",
+    "subtitle": "Ready to get started? Reach out to me and we will find a date together.",
+    "address_title": "Clinic Address",
+    "address": "Masarykovo náměstí 1, Prague 1",
+    "email_title": "Email",
+    "email": "rezervace@luciefyzio.cz",
+    "phone_title": "Phone",
+    "phone": "+420 123 456 789",
+    "form_title": "Send me a message",
+    "form_name": "Full Name",
+    "form_email": "Your Email",
+    "form_message": "Message or Question",
+    "form_submit": "Send Message"
+  },
+  "Footer": {
+    "description": "Your body, your movement, your health.",
+    "links": "Quick Links",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  },
+  "Booking": {
+    "title": "Book an Appointment",
+    "subtitle": "Choose a service, date, and time that suits you.",
+    "step1": "Choose a Service",
+    "step2": "Choose a Date",
+    "step3": "Choose a Time",
+    "step4": "Your Details",
+    "name_label": "Full Name",
+    "email_label": "Your Email",
+    "phone_label": "Phone",
+    "notes_label": "Note (optional)",
+    "confirm": "Confirm Booking",
+    "success_title": "Booking Submitted!",
+    "success_message": "You will receive a confirmation email shortly. Looking forward to seeing you!",
+    "back_home": "Back to Home",
+    "no_slots": "No available slots on this day.",
+    "duration": "min",
+    "price_unit": "CZK"
+  },
+  "Admin": {
+    "title": "Administration",
+    "bookings_title": "Bookings Overview",
+    "status_pending": "Pending",
+    "status_confirmed": "Confirmed",
+    "status_cancelled": "Cancelled",
+    "status_completed": "Completed",
+    "no_bookings": "No bookings yet.",
+    "filter_all": "All",
+    "service": "Service",
+    "client": "Client",
+    "date": "Date",
+    "status": "Status",
+    "actions": "Actions",
+    "confirm_btn": "Confirm",
+    "cancel_btn": "Cancel",
+    "complete_btn": "Complete"
+  }
+}
