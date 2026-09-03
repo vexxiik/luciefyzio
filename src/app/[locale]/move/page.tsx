@@ -1,4 +1,6 @@
-import { redirect } from "@/i18n/routing";
+import { setRequestLocale } from "next-intl/server";
+import { MoveSection } from "@/components/sections/MoveSection";
+import { StickyCTA } from "@/components/layout/StickyCTA";
 
 export default async function MovePage({
   params,
@@ -6,5 +8,12 @@ export default async function MovePage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  redirect({ href: "/", locale: locale as "cs" | "en" });
+  setRequestLocale(locale);
+
+  return (
+    <>
+      <MoveSection />
+      <StickyCTA />
+    </>
+  );
 }
