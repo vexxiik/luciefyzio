@@ -86,7 +86,7 @@ export function Navbar() {
               <SheetTitle className="sr-only">Navigace menu</SheetTitle>
               <SheetDescription className="sr-only">Odkazy na hlavní sekce webu.</SheetDescription>
               
-              <div className="flex flex-col gap-12 mt-20 px-2">
+              <div className="flex flex-col gap-12 mt-20 px-8">
                 <Link href="/" className="font-heading text-4xl font-bold tracking-tighter text-foreground">
                   Lucie<span className="text-primary">Fyzio</span>
                 </Link>
@@ -98,7 +98,7 @@ export function Navbar() {
                   ))}
                 </nav>
               </div>
-              <div className="pb-12 px-2">
+              <div className="pb-12 px-8">
                 <SheetClose
                   render={
                     <Link
