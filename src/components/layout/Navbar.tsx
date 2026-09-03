@@ -86,19 +86,19 @@ export function Navbar() {
               <SheetTitle className="sr-only">Navigace menu</SheetTitle>
               <SheetDescription className="sr-only">Odkazy na hlavní sekce webu.</SheetDescription>
               
-              <div className="flex flex-col gap-10 mt-16">
-                <Link href="/" className="font-heading text-3xl font-bold tracking-tighter text-foreground">
+              <div className="flex flex-col gap-12 mt-20 px-2">
+                <Link href="/" className="font-heading text-4xl font-bold tracking-tighter text-foreground">
                   Lucie<span className="text-primary">Fyzio</span>
                 </Link>
-                <nav className="flex flex-col gap-6">
+                <nav className="flex flex-col gap-8">
                   {navLinks.map((link) => (
-                    <SheetClose key={link.href} render={<Link href={link.href} className="text-2xl font-bold tracking-tight text-foreground/70 hover:text-primary transition-colors" />}>
+                    <SheetClose key={link.href} render={<Link href={link.href} className="text-2xl font-medium tracking-tight text-foreground/70 hover:text-primary transition-colors" />}>
                       {link.name}
                     </SheetClose>
                   ))}
                 </nav>
               </div>
-              <div className="pb-10">
+              <div className="pb-12 px-2">
                 <SheetClose
                   render={
                     <Link
