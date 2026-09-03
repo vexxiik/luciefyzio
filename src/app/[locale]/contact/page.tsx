@@ -1,5 +1,4 @@
-import { setRequestLocale } from "next-intl/server";
-import { ContactSection } from "@/components/sections/ContactSection";
+import { redirect } from "@/i18n/routing";
 
 export default async function ContactPage({
   params,
@@ -7,11 +6,5 @@ export default async function ContactPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  setRequestLocale(locale);
-
-  return (
-    <div className="pt-20">
-      <ContactSection />
-    </div>
-  );
+  redirect({ href: "/", locale: locale as "cs" | "en" });
 }

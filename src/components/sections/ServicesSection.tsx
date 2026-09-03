@@ -11,22 +11,27 @@ const otherServices = [
   {
     id: "post_op",
     colSpan: "md:col-span-1",
+    imageSrc: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: "sport",
     colSpan: "md:col-span-1",
+    imageSrc: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: "headache",
     colSpan: "md:col-span-2",
+    imageSrc: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: "pregnancy",
     colSpan: "md:col-span-2",
+    imageSrc: "https://images.pexels.com/photos/3951582/pexels-photo-3951582.jpeg?auto=compress&cs=tinysrgb&w=800",
   },
   {
     id: "posture",
     colSpan: "md:col-span-2",
+    imageSrc: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
 ];
 
@@ -66,13 +71,13 @@ export function ServicesSection() {
                 className="object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" 
               />
               {/* Very subtle gradient just for text readability */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
               
-              <div className="relative z-10 text-white w-full max-w-sm">
-                <h3 className="text-3xl font-medium mb-3 tracking-tight">
+              <div className="relative z-10 text-white w-full max-w-sm drop-shadow-md">
+                <h3 className="text-3xl font-medium mb-3 tracking-tight drop-shadow-lg">
                   {t("back_pain_title")}
                 </h3>
-                <p className="text-white/90 font-light text-sm md:text-base leading-relaxed">
+                <p className="text-white/90 font-light text-sm md:text-base leading-relaxed drop-shadow-md">
                   {t("back_pain_desc")}
                 </p>
               </div>
@@ -96,13 +101,21 @@ function ServiceCell({ service, t }: { service: any; t: any }) {
 
   return (
     <div 
-      className={`bg-white p-10 flex flex-col justify-end relative overflow-hidden text-left min-h-[225px] transition-colors duration-500 hover:bg-[#fafafa] ${service.colSpan}`}
+      className={`bg-white p-10 flex flex-col justify-end relative overflow-hidden text-left min-h-[225px] group ${service.colSpan}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="mt-auto relative z-10 w-full">
+      <Image 
+        src={service.imageSrc}
+        alt={t(`${service.id}_title`)} 
+        fill 
+        className="object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" 
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent transition-opacity duration-500" />
+      
+      <div className="mt-auto relative z-10 w-full drop-shadow-md">
         <div className="flex items-center justify-between">
-          <h3 className="text-xl font-medium tracking-tight text-foreground">
+          <h3 className="text-xl font-medium tracking-tight text-white drop-shadow-lg">
             {t(`${service.id}_title`)}
           </h3>
           <motion.div
@@ -110,7 +123,7 @@ function ServiceCell({ service, t }: { service: any; t: any }) {
             transition={{ duration: 0.3, ease: "easeOut" }}
             className="flex-shrink-0 ml-4"
           >
-            <Plus className={`w-5 h-5 ${isHovered ? "text-foreground/80" : "text-foreground/20"} transition-colors duration-300`} />
+            <Plus className="w-5 h-5 text-white/80 transition-colors duration-300" />
           </motion.div>
         </div>
         
@@ -123,7 +136,7 @@ function ServiceCell({ service, t }: { service: any; t: any }) {
               transition={{ duration: 0.4, ease: [0.04, 0.62, 0.23, 0.98] }}
               className="overflow-hidden"
             >
-              <p className="text-foreground/60 text-sm mt-4 font-light leading-relaxed">
+              <p className="text-white/80 text-sm mt-4 font-light leading-relaxed">
                 {t(`${service.id}_desc`)}
               </p>
             </motion.div>

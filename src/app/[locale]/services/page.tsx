@@ -1,6 +1,4 @@
-import { setRequestLocale } from "next-intl/server";
-import { ServicesSection } from "@/components/sections/ServicesSection";
-import { StickyCTA } from "@/components/layout/StickyCTA";
+import { redirect } from "@/i18n/routing";
 
 export default async function ServicesPage({
   params,
@@ -8,12 +6,5 @@ export default async function ServicesPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  setRequestLocale(locale);
-
-  return (
-    <div className="pt-20">
-      <ServicesSection />
-      <StickyCTA />
-    </div>
-  );
+  redirect({ href: "/", locale: locale as "cs" | "en" });
 }
