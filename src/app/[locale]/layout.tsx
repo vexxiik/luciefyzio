@@ -20,7 +20,7 @@ const fontHeading = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "LucieFyzio | Prémiová fyzioterapie a koncept M.O.V.E.",
+  title: "LucieFyzio | Fyzioterapie a koncept M.O.V.E.",
   description: "Zažijte úlevu a profesionální péči s konceptem M.O.V.E. - Motivace, Odvaha, Vytrvalost, Energie.",
 };
 
