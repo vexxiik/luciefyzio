@@ -1,11 +1,8 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/routing";
-import { buttonVariants } from "@/components/ui/button";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import { ArrowRight } from "lucide-react";
 
 export function MoveTeaser() {
   const t = useTranslations("Move");
@@ -49,16 +46,6 @@ export function MoveTeaser() {
             {t("subtitle")}
           </p>
           
-          <Link
-            href="/move"
-            className={buttonVariants({ 
-              size: "lg", 
-              className: "bg-white text-stone-900 hover:bg-white/90 hover:scale-105 transition-all shadow-2xl rounded-2xl py-4 px-10 h-auto text-xl font-bold group" 
-            })}
-          >
-            Objevte koncept
-            <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1.5 transition-transform" />
-          </Link>
         </motion.div>
       </div>
     </section>

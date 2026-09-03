@@ -70,10 +70,6 @@ export function Footer() {
                 <ChevronRight className="w-4 h-4 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300 text-primary" />
                 <span>{tNav("services")}</span>
               </Link>
-              <Link href="/move" className="text-stone-600 hover:text-primary font-medium transition-all duration-300 flex items-center gap-1 group">
-                <ChevronRight className="w-4 h-4 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300 text-primary" />
-                <span>{tNav("move_concept")}</span>
-              </Link>
             </nav>
           </div>
 
