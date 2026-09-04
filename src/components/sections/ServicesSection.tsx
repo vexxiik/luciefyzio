@@ -11,27 +11,27 @@ const otherServices = [
   {
     id: "post_op",
     colSpan: "md:col-span-1",
-    imageSrc: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    imageSrc: "https://images.unsplash.com/photo-1746806942507-a7e93fdd6dd4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: "sport",
     colSpan: "md:col-span-1",
-    imageSrc: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    imageSrc: "https://images.unsplash.com/photo-1760376208573-49ee415fc66c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: "headache",
     colSpan: "md:col-span-2",
-    imageSrc: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    imageSrc: "https://images.unsplash.com/photo-1701826510629-051bb954fb8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: "pregnancy",
     colSpan: "md:col-span-2",
-    imageSrc: "https://images.pexels.com/photos/3951582/pexels-photo-3951582.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageSrc: "https://images.unsplash.com/photo-1493894473891-10fc1e5dbd22?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     id: "posture",
     colSpan: "md:col-span-2",
-    imageSrc: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    imageSrc: "https://images.unsplash.com/photo-1624716346720-6c96dfd07807?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
 ];
 
@@ -65,7 +65,7 @@ export function ServicesSection() {
             {/* Feature Cell (Large) */}
             <div className="bg-white col-span-1 md:col-span-2 md:row-span-2 relative min-h-[450px] flex items-end p-10 md:p-12 group overflow-hidden">
               <Image 
-                src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                src="https://images.unsplash.com/photo-1649751361457-01d3a696c7e6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
                 alt="Fyzioterapie zad a páteře" 
                 fill 
                 className="object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" 
