@@ -11,28 +11,41 @@ export function Footer() {
   return (
     <footer className="bg-background relative">
       {/* Pre-footer CTA */}
-      <div className="relative border-b border-stone-200/50 bg-stone-50/50 overflow-hidden">
-        {/* Subtle decorative background elements */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-primary/5 rounded-[100%] blur-3xl pointer-events-none" />
-        
-        <div className="container mx-auto px-4 py-20 md:py-32 text-center relative z-10 flex flex-col items-center">
-          <div className="bg-white/60 backdrop-blur-xl border border-stone-200/60 shadow-xl shadow-black/5 rounded-[3rem] p-10 md:p-16 max-w-4xl w-full">
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-stone-900 mb-6">
-              Jste připraveni na změnu?
-            </h2>
-            <p className="text-lg md:text-xl text-stone-600 mb-10 max-w-2xl mx-auto font-medium leading-relaxed">
-              Začněte svou cestu k životu bez bolesti ještě dnes. Objednejte se na první konzultaci.
-            </p>
-            <Link
-              href="/booking"
-              className={buttonVariants({ 
-                size: "lg", 
-                className: "bg-accent text-accent-foreground hover:bg-accent/90 hover:scale-105 active:scale-95 transition-all duration-300 shadow-xl shadow-primary/30 rounded-2xl py-4 px-10 h-auto text-lg font-bold group" 
-              })}
-            >
-              {tCommon("book_now")}
-              <ArrowRight className="ml-3 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </Link>
+      <div className="relative pt-10 pb-20 md:pb-32 overflow-hidden bg-background">
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="relative rounded-[2.5rem] md:rounded-[3rem] overflow-hidden bg-white border border-stone-200/60 shadow-xl shadow-black/5">
+            {/* Ambient glowing background effects */}
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+               <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/10 rounded-full blur-[100px] translate-x-1/3 -translate-y-1/3" />
+               <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-accent/10 rounded-full blur-[80px] -translate-x-1/3 translate-y-1/3" />
+               {/* Pattern overlay for texture */}
+               <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(#000 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
+            </div>
+
+            <div className="relative z-10 p-10 md:p-16 lg:p-24 flex flex-col lg:flex-row items-center justify-between gap-12 text-center lg:text-left">
+              <div className="max-w-2xl">
+                <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-stone-900 leading-[1.1]">
+                  Jste připraveni na <span className="text-primary relative inline-block whitespace-nowrap">změnu?<svg className="absolute w-[105%] h-3 -bottom-1 -left-[2.5%] text-accent opacity-80" viewBox="0 0 100 15" preserveAspectRatio="none"><path d="M 2,10 Q 50,2 98,8 C 70,14 30,15 2,10 Z" fill="currentColor"/></svg></span>
+                </h2>
+                <p className="text-lg md:text-xl text-stone-600 font-medium leading-relaxed max-w-xl mx-auto lg:mx-0">
+                  Začněte svou cestu k životu bez bolesti ještě dnes. Objednejte se na první konzultaci.
+                </p>
+              </div>
+              <div className="flex-shrink-0 relative">
+                {/* Decorative glow around button */}
+                <div className="absolute inset-0 bg-primary/20 blur-2xl rounded-full scale-150 group-hover:scale-125 transition-transform duration-700" />
+                <Link
+                  href="/booking"
+                  className={buttonVariants({ 
+                    size: "lg", 
+                    className: "relative bg-accent text-accent-foreground hover:bg-accent/90 hover:scale-105 active:scale-95 transition-all duration-300 shadow-xl shadow-primary/30 rounded-2xl py-6 px-10 md:px-12 h-auto text-lg md:text-xl font-bold group" 
+                  })}
+                >
+                  {tCommon("book_now")}
+                  <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-2 transition-transform" />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
