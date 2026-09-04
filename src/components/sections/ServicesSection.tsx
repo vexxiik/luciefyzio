@@ -68,6 +68,7 @@ export function ServicesSection() {
                 src="https://images.unsplash.com/photo-1649751361457-01d3a696c7e6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
                 alt="Fyzioterapie zad a páteře" 
                 fill 
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" 
               />
               {/* Very subtle gradient just for text readability */}
@@ -109,6 +110,7 @@ function ServiceCell({ service, t }: { service: any; t: any }) {
         src={service.imageSrc}
         alt={t(`${service.id}_title`)} 
         fill 
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         className="object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90" 
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent transition-opacity duration-500" />
